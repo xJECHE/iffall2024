@@ -1,0 +1,25 @@
+html {
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: antiquewhite;
+}
+.column {
+    width: 30rem;
+    margin: 50px;
+    
+}
+
+.column2 {
+    width: 35rem;
+    margin: 50px;
+    
+}
+
+h2 {
+    width: 40rem;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: .75rem;
+}
