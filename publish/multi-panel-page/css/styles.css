@@ -1,0 +1,78 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    
+}
+
+header {
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 188px;
+    background-color: red;
+    background-image: url(../images/stardew-background-5nm3af2n23ja2grf.webp);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    margin-top: 27px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+section {
+    margin: auto;
+    background-color: rgba(0, 0, 255, .25);
+   
+   
+}
+
+section.intro > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 21px;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+
+section.intro > div p {
+    line-height: 25px;
+   
+}
+
+section.intro {
+    color: white;
+    background-color: rgba(10, 78, 78, 0.345);
+}
+
+.float {
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 45px;
+}
+
+section.content > div {
+    width: 960px;
+    margin: auto;
+    padding: 0px;
+   
+}
+
+
+
+
+

@@ -1,0 +1,65 @@
+html {
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: antiquewhite;
+}
+
+div {
+    margin-left: 50px;
+}
+.column {
+    width: 30rem;
+    
+}
+
+.column2 {
+    margin-top: 100px;
+    width: 35rem;
+    
+}
+
+h2 {
+    width: 40rem;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: .75rem;
+}
+
+.ingredients {
+    line-height: 1.5rem;
+}
+
+.steps {
+    line-height: 2rem;
+}
+
+.steps p {
+    color: rgb(162, 92, 92);
+    margin-top: 0;
+    font-size: .75rem;
+}
+
+.header p {
+    color: brown;
+    font-size: 1.25rem;
+  
+}
+
+p.sub {
+    font-size: .75rem;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+   
+}
+
+.inline-block img {
+    width: 150px;
+    height: auto;
+    padding: 0;
+}
+
+.inline-block li {
+    display: inline-block;
+}
