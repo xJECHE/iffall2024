@@ -1,0 +1,371 @@
+
+/*General Rule Sets*/
+html {
+    background-color: rgb(231, 219, 173);
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgb(145, 102,108);
+    display: flex;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 100px;
+
+    
+}
+
+body.landing {
+    padding-top: 0;
+}
+
+h1 {
+    font-family: "Bebas Neue", serif;
+    color: rgb(231, 219, 173);
+    font-size: 90px;
+    margin: auto;
+}
+
+h1.first {
+    color: rgb(252, 207, 29);
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 4px 3px rgb(116, 73, 79);
+    font-size: 200px;
+    
+}
+
+h2 {
+    color: rgb(252, 207, 29);
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(145, 102, 108);
+    font-size: 125px;
+    margin-bottom: 0px;
+    
+}
+
+p {
+    color: rgb(116, 73, 79);
+    line-height: 1.2rem;
+    width: 715px;
+    word-wrap: normal;
+}
+
+
+/*Landing Page Rule Sets*/
+html.initial {
+    background-image: url(../lalalandphotos/La-La-Land-006.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 110px;
+    background-color: rgb(116, 73, 79);
+    
+}
+
+
+h1.first {
+    font-size: 251px;
+
+}
+
+h3.button {
+    font-size: 38px;
+    text-align: center;
+    background: rgb(252, 207, 29);
+    border-radius: 8px;
+    margin: 27rem 30rem 0rem 30rem;
+}
+
+div.names span {
+    color: rgb(252, 207, 29);
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 1em;
+    font-size: 40px;
+
+}
+
+div.names {
+    margin: 3rem 0rem 0rem 4rem;
+    padding: 2px 0px 0px 4px;
+}
+
+/*Pages Rule Set*/
+
+header div {
+    color: rgb(231, 219, 173);
+    font-family: "Bebas Neue", serif;
+    margin: auto;
+    font-size: 40px;
+    
+}
+
+header span {
+    margin-right: 6.5rem;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.img {
+    width: 40rem;
+    height: auto;
+}
+
+footer {
+    color: rgb(145, 102, 108);
+    font-family: "Bebas Neue", serif;
+    margin: 5rem 5rem 5rem 9rem;
+    text-align: center;
+}
+
+footer div span {
+    margin-right: 5rem;
+    color: rgb(145, 102, 108);
+}
+
+.navigation {
+    font-family: "Bebas Neue", serif;
+    float: left;
+    font-size: 50px;
+    margin-top: 5.5rem;
+    position: sticky;
+    top: 500px;
+}
+
+.navigation li {
+    display: block;
+}
+
+.container {
+    flex: auto;
+    margin: 0px 15rem 0px 20rem;
+}
+
+/*Plot Rule Sets*/
+section.songs {
+    background-color: rgb(145, 102, 108);
+    border-radius: 10px;
+    padding: 0px 0px 50px 0px;
+    
+}
+
+section.songs h3 {
+    color: rgb(231, 219, 173);
+    margin-top: 100px;
+    padding: 10px;
+}
+
+section.songs li {
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+    color: rgb(231, 219, 173);
+    padding: 10px;
+    background-color: rgb(116, 73, 79);
+    border-radius: 8px;
+    margin: 0 50px 10px 50px;
+    width: auto;
+    display: block;
+}
+
+ol {
+    padding: 0;
+}
+
+
+/*Styling Buttons*/
+
+footer a:link {
+    color: rgb(145, 102, 108);
+    text-decoration: none;
+
+}
+
+footer a:visited {
+    color: rgb(145, 102, 108);
+    text-decoration: none;
+
+}
+
+.navigation a:link {
+    color: rgb(145, 102, 108);
+    text-decoration: none;
+
+}
+
+.navigation a:hover {
+    color: rgb(171, 129, 134);
+    text-shadow: 0 4px 8px rgba(245, 241, 25, 0.573);
+    text-decoration: none;
+
+}
+
+.navigation a:visited {
+    color: rgb(145, 102, 108);
+    text-decoration: none;
+
+}
+
+.head a:visited {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+
+
+}
+
+.head a:hover {
+    color: rgb(231, 219, 173);
+    text-shadow: 0 4px 8px rgba(245, 241, 25, 0.505);
+    text-decoration: none;
+
+
+}
+
+.head a:link {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+}
+
+.button a:link {
+    color: rgb(145, 102, 108);
+    text-decoration: none;
+
+}
+
+.button a:hover {
+    color: rgb(133, 100, 104);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+}
+
+.button a:visited {
+    color: rgb(133, 100, 104);
+}
+
+.pages a:visited {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+
+
+}
+
+.pages a:hover {
+    color: rgb(231, 219, 173);
+    text-shadow: 0 4px 8px rgba(245, 241, 25, 0.505);
+    text-decoration: none;
+}
+
+.pages a:link {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+}
+
+li a:visited {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(231, 219, 173);
+    text-decoration: underline solid rgb(231, 219, 173);
+}
+
+li a:link {
+    color: rgb(231, 219, 173);
+    text-decoration: none;
+}
+
+/** Responsive **/
+
+@media (max-width: 994px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    header div {
+        font-size: 20px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .img {
+        width: 80%;
+        padding-left: 80px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .container {
+        margin: auto;
+        width: 715px;
+    }
+
+    p {
+        font-size: 70%;
+        max-width: 600px;
+        margin:auto;
+    }
+
+    h3 {
+        font-size: 72px;
+    }
+
+    body.landing div.names span {
+        font-size: 30px;
+    
+    }
+
+    .landing h1.first {
+        font-size: 180px;
+        padding-left: 20px;
+        padding-top: 70px;
+    }
+
+    h3.button {
+        font-size: 30px;
+        margin: 40px;
+    }
+
+    
+}
+
+@media (max-width: 994px) {
+    h1.first {
+        font-size: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
