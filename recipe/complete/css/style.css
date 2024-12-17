@@ -1,0 +1,150 @@
+html {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(165, 91, 42);
+    border: 20px solid rgb(220, 181, 122);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 50px;
+    color: antiquewhite;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+}
+
+footer {
+    color: rgb(165, 91, 42);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(165, 91, 42);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img.head {
+    display: block;
+    float: right;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-left: 20px;
+    width: 400px;
+    height: auto;
+    margin: 0;
+}
+
+img {
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 34px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0;
+}
+
+section.info {
+    color: rgb(165, 91, 42);
+    text-align: center;
+}
+
+.ingredients {
+    color: antiquewhite;
+    
+}
+
+section.ingredients div {
+    width: 300px;
+    
+
+}
+
+section.ingredients {
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(165, 91, 42);
+    padding: 20px;
+    border-radius: 6px;
+    border: 6px solid rgb(220, 181, 122);
+}
+
+section.descriptions {
+    margin-left: 25rem;
+    padding-top: 20px;
+    color: antiquewhite;
+}
+
+section.setting {
+    background-color: rgb(165, 91, 42);
+    border-radius: 6px;
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 6px solid rgb(220, 181, 122);
+
+}
+
+section.preparing {
+    background-color: rgb(165, 91, 42);
+    border-radius: 6px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 6px solid rgb(220, 181, 122);
+
+
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+
+    section.ingredients {
+        float: none;
+    }
+
+    .ingredients {
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    img.head {
+        width: 70%;
+    }
+
+    section.descriptions {
+        margin: 0px;
+    }
+
+
+}
